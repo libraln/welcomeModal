@@ -124,3 +124,9 @@
   padding-bottom: 0;
   border-bottom: none;
 }
+
+
+.modal-backdrop.show {
+  background: #7A7E81;
+  opacity: 0.5;
+}
