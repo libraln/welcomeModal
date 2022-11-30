@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link href="welcomeStyles.css" rel="stylesheet" type="text/css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&family=Roboto+Flex:opsz,wght@8..144,700&family=Roboto+Mono:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+    Launch static backdrop modal
+  </button>
+
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered justify-content-center">
+      <div class="modal-content welcome-slide">
+        <div class="modal-header close-btn-container">
+          <button type="button" class="btn-close close-btn" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="d-flex justify-content-center align-center">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                  aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                  aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                  aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                  aria-label="Slide 4"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="">
+                    <div class="centered-block">
+                      <h1 class="welcome-heading">Welcome to IT<span class="selected-text">Fin&nbsp;&nbsp;</span></h1>
+                      <div class="image-block">
+                        <img src="start.png" alt="">
+                      </div>
+                      <div class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+                      <div class="btn-block">
+                        <button class="btn button-next" type="button" data-bs-target="#carouselExampleIndicators"
+                          data-bs-slide="next">
+                          GET STARTED
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="">
+                    <div class="centered-block">
+                      <h1 class="welcome-heading">What we <span class="selected-text">can do&nbsp;&nbsp;</span></h1>
+                      <div class="image-block">
+                        <img src="next.png" alt="">
+                      </div>
+                      <div class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit delectus ipsam autem
+                        facilis.</div>
+                      <div class="btn-block">
+                        <button class="btn button-next" type="button" data-bs-target="#carouselExampleIndicators"
+                          data-bs-slide="next">
+                          NEXT
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="">
+                    <div class="centered-block">
+                      <h1 class="welcome-heading">Lorem <span class="selected-text">ipsum&nbsp;&nbsp;</span></h1>
+                      <div class="image-block">
+                        <img src="next.png" alt="">
+                      </div>
+                      <div class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet totam quisquam,
+                        quia.</div>
+                      <div class="btn-block">
+                        <button class="btn button-next" type="button" data-bs-target="#carouselExampleIndicators"
+                          data-bs-slide="next">
+                          NEXT
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="">
+                    <div class="centered-block">
+                      <h1 class="welcome-heading">Good l<span class="selected-text">uck&nbsp;&nbsp;</span></h1>
+                      <div class="image-block">
+                        <img src="goodluck.png" alt="">
+                      </div>
+                      <div class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet totam quisquam,
+                        quia.</div>
+                      <div class="btn-block">
+                        <button class="btn button-next" type="button" data-bs-target="#carouselExampleIndicators"
+                          data-bs-slide="next">
+                          DONE
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

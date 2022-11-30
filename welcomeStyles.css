@@ -1,0 +1,126 @@
+:root {
+  --grey: #F5F5F5;
+  --light-grey: #F8F8F8;
+  --black: #252525;
+  --blue: #0B314F;
+  --background: #F5F5F5;
+  --yellow: #FFD600;
+  --white: #FFFFFF;
+}
+
+.welcome-slide {
+  width: 648px;
+  height: 619px;
+  background-color: var(--background);
+  border: 1px solid var(--yellow);
+  box-shadow: 0px 4px 20px rgba(169, 176, 193, 0.5);
+  border-radius: 8px 8px 0px 0px;
+}
+
+.modal-body {
+  padding: 20px 80px 0 80px;
+}
+
+.centered-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.welcome-heading {
+  font-family: 'Open Sans';
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 45px; 
+  color: var(--black);
+  margin-top: 5px;
+}
+
+.image {
+  width: 236px;
+  height: 263px;
+}
+
+.image-block {
+  padding: 22px 0 24px 0;
+}
+
+.btn-block {
+  padding-top: 38px;
+}
+
+.button-next {
+  width: 177px;
+  height: 36px;
+  background-color: var(--blue);
+  border-radius: 4px;
+  border: none;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 1.25px;
+  color: var(--white);
+}
+
+.button-next:hover {
+  color: var(--white);
+}
+
+.text {
+  width: 488px;
+  height: 53px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.carousel-indicators {
+  top: 450px;
+  bottom: 40px;
+}
+
+.selected-text {
+  background: var(--yellow);
+  margin-top: 0px;
+  position: relative;
+}
+
+.selected-text::before {
+  content: ""; 
+  width: 2px;
+  height: 56px;
+  background-color: var(--black);
+  display: block;
+  position: absolute;
+  top: -7px;
+  left: calc(100% - 2px);
+}
+
+.carousel-indicators [data-bs-target] {
+  width: 8px;
+  height: 8px;
+  background: #A1A0A0;
+  border: 0;
+  border-radius: 8px;
+}
+
+.carousel-indicators .active {
+  background: var(--yellow);
+}
+
+.close-btn-container {
+  padding-top: 23px;
+  padding-right: 23px;
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
